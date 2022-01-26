@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enno2", "enno2\enno2.csproj", "{83BC81E5-9D38-4CA5-9D38-1838DC5D0314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83BC81E5-9D38-4CA5-9D38-1838DC5D0314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BC81E5-9D38-4CA5-9D38-1838DC5D0314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BC81E5-9D38-4CA5-9D38-1838DC5D0314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BC81E5-9D38-4CA5-9D38-1838DC5D0314}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A062A0C8-004D-4447-A5A6-58EF54503D82}
+	EndGlobalSection
+EndGlobal
