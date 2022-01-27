@@ -12,7 +12,7 @@ namespace enno2.Models
     {
         [Key]
         public int Id { get; set; }
-        [MaxLength(250),Required]
+        [MaxLength(250)]
         public string Image { get; set; }
 
         [NotMapped]

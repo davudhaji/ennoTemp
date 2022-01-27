@@ -1,5 +1,7 @@
+using enno2.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +25,7 @@ namespace enno2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<AppDbContext>(o => o.UseSqlServer(Configuration.GetConnectionString("Enno2CS")));
 
         }
 
